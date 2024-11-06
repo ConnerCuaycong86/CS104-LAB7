@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="transition-button">Hover Me</button>
+
+<style>
+  .transition-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .transition-button:hover {
+    background-color: green;
+  }
+</style>
+
+<div class="transition-div"></div>
+
+<style>
+  .transition-div {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+  }
+
+  .transition-div:hover {
+    width: 200px;
+  }
+</style>
+
+<p class="transition-text">Hover over this text.</p>
+
+<style>
+  .transition-text {
+    font-size: 16px;
+  }
+
+  .transition-text:hover {
+    font-size: 24px;
+  }
+</style>
+
+<img class="transition-image" src="images (1).jpg" alt="Image">
+
+<style>
+  .transition-image {
+    width: 200px;
+    height: auto;
+  }
+
+  .transition-image:hover {
+    opacity: 0.5;
+  }
+</style>
+
+<div class="scale-div"></div>
+
+<style>
+  .scale-div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+  }
+
+  .scale-div:hover {
+    transform: scale(1.5);
+  }
+</style>
+<img class="scale-image" src="images (1).jpg" alt="Image">
+
+<style>
+  .scale-image {
+    width: 200px;
+    height: auto;
+  }
+
+  .scale-image:hover {
+    transform: scale(0.75);
+  }
+</style>
+
+<button class="translate-button">Move Me</button>
+
+<style>
+  .translate-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .translate-button:hover {
+    transform: translate(50px, 20px);
+  }
+</style>
+
+<div class="translate-div"></div>
+
+<style>
+  .translate-div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+  }
+
+  .translate-div:hover {
+    transform: translateX(-100px);
+  }
+</style>
+
+<h1 class="skew-heading">Skew Me</h1>
+
+<style>
+  .skew-heading {
+    transition: transform 0.3s ease;
+  }
+
+  .skew-heading:hover {
+    transform: skewX(20deg);
+  }
+</style>
+
+<p class="skew-paragraph">Skew this paragraph.</p>
+
+<style>
+  .skew-paragraph {
+    transition: transform 0.3s ease;
+  }
+
+  .skew-paragraph:hover {
+    transform: skewY(15deg);
+  }
+</style>
+
+
+
+
+</body>
+</html>
